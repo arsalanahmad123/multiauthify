@@ -1,7 +1,7 @@
 {
-    "name": "jwt-auth-package",
+    "name": "MultiAuthify",
     "version": "1.0.0",
-    "description": "A simple and flexible JWT-based authentication package for Node.js",
+    "description": "A flexible JWT-based authentication package for Node.js, supporting multiple authentication strategies.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -12,21 +12,24 @@
         "jwt",
         "authentication",
         "middleware",
-        "nodejs"
+        "nodejs",
+        "multi-auth",
+        "flexible"
     ],
     "author": "Arsalan Ahmad <thepeacedevelopers@gmail.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arsalanahmad123/jwt-auth-package.git"
+        "url": "https://github.com/arsalanahmad123/multiauthify.git"
     },
     "bugs": {
-        "url": "https://github.com/arsalanahmad123/jwt-auth-package/issues"
+        "url": "https://github.com/arsalanahmad123/multiauthify/issues"
     },
-    "homepage": "https://github.com/arsalanahmad123/jwt-auth-package#readme",
+    "homepage": "https://github.com/arsalanahmad123/multiauthify#readme",
     "dependencies": {
         "dotenv": "^16.4.7",
-        "jsonwebtoken": "^9.0.2"
+        "jsonwebtoken": "^9.0.2",
+        "express": "^4.17.1" 
     },
     "devDependencies": {
         "@types/express": "^5.0.0",
