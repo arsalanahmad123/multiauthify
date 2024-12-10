@@ -1,5 +1,5 @@
 {
-    "name": "MultiAuthify",
+    "name": "multi-authify",
     "version": "1.0.0",
     "description": "A flexible JWT-based authentication package for Node.js, supporting multiple authentication strategies.",
     "main": "dist/index.js",
@@ -29,12 +29,13 @@
     "dependencies": {
         "dotenv": "^16.4.7",
         "jsonwebtoken": "^9.0.2",
-        "express": "^4.17.1" 
+        "express": "^4.17.1"
     },
     "devDependencies": {
         "@types/express": "^5.0.0",
         "@types/jsonwebtoken": "^9.0.7",
         "@types/node": "^22.10.1",
         "typescript": "^5.7.2"
-    }
+    },
+    "readme": "README.md"
 }
