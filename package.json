@@ -1,6 +1,6 @@
 {
     "name": "multi-authify",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A flexible JWT-based authentication package for Node.js, supporting multiple authentication strategies.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
